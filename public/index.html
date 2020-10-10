@@ -3,10 +3,38 @@
 
 <head>
   <meta charset='utf8'>
-  <title>RESTful P.JS</title>
-  <script src='./example-fetches.js'></script>
+  <title>TodoList with API</title>
+  <link href='./style.css' rel='stylesheet' />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
 </head>
 
-<body></body>
+<body>
+  <header>
+    <h2 id="title">Todo Lists</h2>
+  </header>
+
+  <!--Adding new item-->
+  <div id="div-form">
+    <form id="form-form">
+      <input id="list-input" type="text" placeholder="Enter your title">
+      <button id="newlist">Add a new item</button>
+    </form>
+  </div>
+
+  <div id="row">
+    <!-- This is an example -->
+
+    <!-- <ul class="ul-item" id="2">
+      <div class="div-item">
+        <input type="checkbox" id="checkbox">
+        <li class=item-text>list</li>
+      </div>
+      <button id="remove-item">❌</button>
+    </ul> -->
+
+  </div>
+
+  <script type='module' src='./src/init.js'></script>
+</body>
 
 </html>
