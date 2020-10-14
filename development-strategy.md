@@ -18,7 +18,7 @@ _A User can see my initial repository and live demo_
 
 - Created a new repository to fork from this [repository](https://github.com/HackYourFutureBelgium/restful-pjs)
 - Cloned the repository
-- Added a wireframe
+- Added a Wireframe
 - Completed the development strategy
 - Pushed the changes to GitHub
 - Turned on GitHub Pages
